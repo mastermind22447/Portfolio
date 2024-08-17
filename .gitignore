@@ -1,0 +1,64 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Django/Python
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+
+# Local environment
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Django static files
+staticfiles/
+static/
+
+# Media files
+media/
+
+# Migrations
+*/migrations/*
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# MySQL/MariaDB dumps
+*.sql
+
+# IDE and OS-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Linux generated files
+*~
+*.swp
+
+# Local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Parcel-bundler cache (for React)
+.cache/
+
